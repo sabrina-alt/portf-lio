@@ -1,0 +1,107 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+.full-content {
+  background-color: #141414;
+}
+.first-content {
+  height: 100vh;
+  background-image: url("./img/mainBackground.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;  /* 300 pixels de largura e altura automática */
+}
+.first-info {
+  width: 80%;
+  padding-top: 45px;
+}
+.main-title {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 114px;
+  color:  #E94560;
+}
+.sub-title {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 200;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #ffff;
+}
+/*---- second section -------*/
+.second-content{
+  display: flex;
+  max-width: 95%;
+  height: 90vh;
+  padding-left: 4%;
+}
+.about-me-title {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top:120px;
+  font-size: 70px;
+  color:  #533483;
+}
+.about-me-text {
+  width: 40%;
+  padding-left: 70px;
+}
+.text-content {
+  color: #ffff;
+  padding:25px 0px 20px 0px;
+  font-family:'Hanken Grotesk', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: justify;
+}
+.aside-content{
+  width: 45%;
+  padding-right: 170px;
+}
+.aside-content img{
+  padding-left: 185px;
+  width: 100%;
+
+}
+/*------ third section -----*/
+.education-section {
+  display: flex;
+}
+.third-section  {
+  height: 100vh;
+  background-image: url("./img/secondBackground.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%; 
+}
+.third-section h3 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 76px;
+  color:  #E94560;
+}
+.third-section p {
+  color: #ffff;
+  font-family:'Hanken Grotesk', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: justify;
+}
+.third-section-box {
+  width: 350px;
+}
+.third-section-title {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  color:  #E94560;
+}
+/*
+dark blue: #16213E
+medium blue: #0F3460
+purple: #533483
+pink: #E94560
+wgite: #ffffff
+*/
